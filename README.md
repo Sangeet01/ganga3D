@@ -110,6 +110,11 @@ Sharma, S. (2025). Ganga3D: Transformer-Based 2D and 3D Structure Prediction of 
 7. Ulrich, E. L., et al. (2008). BioMagResBank. *Nucleic Acids Research*, 36(suppl_1), D402-D408.
 8. Sawada, Y., et al. (2012). RIKEN tandem mass spectral database (ReSpect) for phytochemicals. *Phytochemistry*, 82, 38-45.
 
+
+## Acknowledgments  
+This project utilized ChatGPT for code generation and preliminary testing, Gemini for debugging, and xAI for optimizations. The core algorithm was designed entirely by me, and rigorous testing is being conducted to ensure its validity and robustness.  
+
+
 ## Licensing
 Users must ensure compliance with the licenses of the training datasets (e.g., CC BY 4.0 for MassBank, CC0 for GNPS). The pre-computed predictions are shared for research purposes only.
 
