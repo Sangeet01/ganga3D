@@ -113,7 +113,7 @@ Sharma, S. (2025). Ganga3D: Transformer-Based 2D and 3D Structure Prediction of 
 ## Licensing
 Users must ensure compliance with the licenses of the training datasets (e.g., CC BY 4.0 for MassBank, CC0 for GNPS). The pre-computed predictions are shared for research purposes only.
 
-Contributions
+
 ## Contributions
 Contributions to ganga3D are welcome! Please fork the repository, make your changes, and submit a pull request. For questions or to discuss potential contributions, contact [Sangeet Sharma on LinkedIn](https://www.linkedin.com/in/sangeet-sangiit01).
 
