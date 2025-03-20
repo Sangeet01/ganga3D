@@ -97,7 +97,7 @@ The pre-trained model file (`spectral_refinement_transformer.h5`) is not shared 
 - See `results/` for detailed results and `predictions/` for pre-computed predictions.
 
 ## Citation
-A paper describing Ganga3D will be uploaded to arXiv in March 2025. Once available, please cite:  
+A paper describing Ganga3D will be uploaded to arXiv. Once available, please cite:  
 Sharma, S. (2025). Ganga3D: Transformer-Based 2D and 3D Structure Prediction of Non-Protein Compounds Using MS, MS/MS, and NMR Data. *arXiv preprint*.
 
 ## References
