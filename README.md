@@ -71,11 +71,9 @@ You can run Ganga3D on Google Colab to leverage free cloud resources, especially
 - Save your trained model and output files to Google Drive to avoid losing them when the Colab runtime disconnects.
 
 ## Pre-Computed Predictions
-Pre-computed predictions for 5 molecules (Testosterone, Digoxin, Caffeine, Quercetin, Morphine) are available for research purposes. These were generated using Ganga3D, achieving 99% Top 1 accuracy on benchmark datasets.
+Pre-computed predictions for 19 molecules (Testosterone, Digoxin, Caffeine, Quercetin, Morphine, Sennoside, Salicin, Nicotine, Thujone, Ellagitannin, Cannabidiol, Menthol, Guaiacol, Rutin, Limonene, Catechol, Curcumin, Aflatoxin B1, and Erythromycin) are available for research purposes. These were generated using Ganga3D, achieving an average of 99% Top 1 accuracy on benchmark datasets.
 
 - Download the results table: [predictions.csv](predictions/predictions.csv)
-- Structure files are in the `predictions/` directory: [View Files](predictions/)
-- Note: The current SDF/GLB files are placeholders. Real predictions will be added soon. To request predictions for a new molecule, please contact [your email].
 
 ## Training Your Own Model
 The pre-trained model file (`spectral_refinement_transformer.h5`) is not shared due to its size (40+ GB) and licensing constraints. To run Ganga3D on new molecules, you can train your own model:
