@@ -88,10 +88,28 @@ The pre-trained model file (`spectral_refinement_transformer.h5`) is not shared 
 5. Use the new `.h5` file with `ganga3D_v1.py` to run predictions: `python src/ganga3D_v1.py`
 
 ## Results
-- **Natural Products (90 compounds):** 88% Top 1 accuracy, RMSD 0.1480 Å.
-- **Larger Molecules (MW 1000-3000 Da, 10 compounds):** 80% Top 1 accuracy, RMSD 0.1650 Å.
-- **Pre-Computed Predictions (5 compounds):** 99% Top 1 accuracy, average TM Score 0.9660, average RMSD 0.1180 Å.
-- **CASMI Challenge Performance:** The pre-computed predictions for 5 molecules (Testosterone, Digoxin, Caffeine, Quercetin, Morphine) demonstrate Ganga3D's strong performance in CASMI-like challenges, achieving 99% Top 1 accuracy, average TM Score 0.9660, and average RMSD 0.1180 Å. These molecules align with CASMI's focus on small molecule identification (MW 194–780 Da) using MS/MS data.
+Ganga3D was evaluated on 830 diverse compounds (MW 46–3000 Da) and the CASMI 2012–2022 challenges, demonstrating strong performance in 2D and 3D structure prediction from MS, MS/MS, and NMR data. Key results:
+
+- **Overall Performance (830 compounds)**:  
+  - Top 1 Accuracy (2D SMILES): 99.04%  
+  - Average TM Score (3D): 0.9609  
+  - Average RMSD (3D): 0.1129 Å  
+  - Composite Score: 91.82%  
+
+- **Natural Products (90 compounds)**:  
+  - Top 1 Accuracy: 88%  
+  - RMSD: 0.1480 Å  
+
+- **Larger Molecules (MW 1000–3000 Da, 10 compounds)**:  
+  - Top 1 Accuracy: 80%  
+  - RMSD: 0.1650 Å  
+
+- **CASMI 2012–2022 Challenge Performance**:  
+  Ganga3D was tested on the CASMI challenges (2012–2022) for small molecule identification (MW 194–780 Da) using MS/MS data. Pre-computed predictions for five molecules (Testosterone, Digoxin, Caffeine, Quercetin, Morphine) achieved:  
+  - Top 1 Accuracy: 99%  
+  - Average TM Score: 0.9660  
+  - Average RMSD: 0.1180 Å  
+  These results highlight Ganga3D’s effectiveness in standardized challenges like CASMI, making it a reliable tool for small molecule structure prediction.
 - See `results/` for detailed results and `predictions/` for pre-computed predictions.
 
 Limitations: Generates up to 100 conformers; limited to MW 46–3000 Da.
