@@ -94,6 +94,8 @@ The pre-trained model file (`spectral_refinement_transformer.h5`) is not shared 
 - **CASMI Challenge Performance:** The pre-computed predictions for 5 molecules (Testosterone, Digoxin, Caffeine, Quercetin, Morphine) demonstrate Ganga3D's strong performance in CASMI-like challenges, achieving 99% Top 1 accuracy, average TM Score 0.9660, and average RMSD 0.1180 Å. These molecules align with CASMI's focus on small molecule identification (MW 194–780 Da) using MS/MS data.
 - See `results/` for detailed results and `predictions/` for pre-computed predictions.
 
+Limitations: Generates up to 100 conformers; limited to MW 46–3000 Da.
+
 ## Citation
 A paper describing Ganga3D will be uploaded to arXiv. Once available, please cite:  
 Sharma, S. (2025). Ganga3D: Transformer-Based 2D and 3D Structure Prediction of Non-Protein Compounds Using MS, MS/MS, and NMR Data. *arXiv preprint*.
