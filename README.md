@@ -112,7 +112,8 @@ Ganga3D was evaluated on 830 diverse compounds (MW 46–3000 Da) and the CASMI 2
   These results highlight Ganga3D’s effectiveness in standardized challenges like CASMI, making it a reliable tool for small molecule structure prediction.
 - See `results/` for detailed results and `predictions/` for pre-computed predictions.
 
-Limitations: Generates up to 100 conformers; limited to MW 46–3000 Da.
+## Limitations
+Generates up to 100 conformers; limited to MW 46–3000 Da.
 
 ## Citation
 A paper describing Ganga3D will be uploaded to arXiv. Once available, please cite:  
