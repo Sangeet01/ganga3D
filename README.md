@@ -117,6 +117,16 @@ Contributions
 ## Contributions
 Contributions to ganga3D are welcome! Please fork the repository, make your changes, and submit a pull request. For questions or to discuss potential contributions, contact [Sangeet Sharma on LinkedIn](https://www.linkedin.com/in/sangeet-sangiit01).
 
+@misc{sharma2025ganga3d,
+  author = {Sharma, Sangeet},
+  title = {ganga3D: A Deep Learning Tool for 2D/3D Structure Prediction of Non-Protein Compounds},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/Sangeet01/ganga3D}},
+  note = {Predicts structures (MW 46--3000 Da) using MS, MS/MS, NMR data; 99\% Top 1 accuracy; 19 pre-computed predictions in predictions.csv; limits: 100 conformers, MW 46--3000 Da}
+}
+
 PS: Ganga is my mother's name and I wanna honour my work in her name.
 
 PPS: Sangeet’s the name, a daft undergrad splashing through chemistry and code like a toddler—my titrations are a mess, and I’ve used my mouth to pipette.
