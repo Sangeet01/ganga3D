@@ -18,7 +18,7 @@ from tensorflow.keras import layers
 import warnings
 warnings.filterwarnings("ignore")
 
-# Build transformer model (achieved 99% Top 1 accuracy on CASMI, GNPS, LIPID MAPS, METLIN)
+# Build transformer model 
 def build_transformer(input_dim=60, max_len=100, vocab_size=50, d_model=256, num_heads=8, ff_dim=1024, num_layers=6, dropout_rate=0.1):
     inputs = layers.Input(shape=(input_dim,))
     x = layers.Dense(d_model)(inputs)
