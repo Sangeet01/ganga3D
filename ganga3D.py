@@ -372,5 +372,4 @@ if __name__ == "__main__":
     if stereo_score is not None:
         print(f"Stereo Score: {stereo_score:.4f}")
 
-
 #end
