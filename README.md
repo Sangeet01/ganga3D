@@ -141,7 +141,6 @@ Users must ensure compliance with the licenses of the training datasets (e.g., C
 ## Contributions
 Contributions to ganga3D are welcome! Please fork the repository, make your changes, and submit a pull request. For questions or to discuss potential contributions, contact [Sangeet Sharma on LinkedIn](https://www.linkedin.com/in/sangeet-sangiit01).
 
-Sharma, S. (2025). ganga3D: A Deep Learning Tool for 2D/3D Structure Prediction of Non-Protein Compounds [Computer software]. GitHub. https://github.com/Sangeet01/ganga3D
 
 PS: Ganga is my mother's name and I wanna honour my work in her name.
 
