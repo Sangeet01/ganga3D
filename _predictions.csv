@@ -1,3 +1,4 @@
+
 Molecule,Predicted_SMILES,TM_Score,RMSD,MSMS_Fit,Stereo_Score,SDF_File,GLB_File,CASMI_Relevance
 Testosterone,CC12CCC3C(C1CCC2O)CCC4C3(C=CC(=O)C4)C,0.9700,0.1100,0.9400,0.9500,testosterone_2d.sdf,testosterone_3d.glb,Relevant for CASMI (natural product, MW 288 Da)
 Digoxin,CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)O)O)O,0.9800,0.0900,0.9500,0.9200,digoxin_2d.sdf,digoxin_3d.glb,Relevant for CASMI (natural product, MW 780 Da)
